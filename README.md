@@ -29,8 +29,8 @@ The component isn't tied to any JSF implementation (Mojarra and MyFaces), compon
     <version>1.0</version>
 </dependency>
 ```
-* Define the namespace on top of your xhtml page like : ``xmlns:c4j="http://www.rubus.be/component"```
-* Use the component, ``` <c4j:gridLayout columns="2" ... > ```. See the example further on.
+* Define the namespace on top of your xhtml page like : ``xmlns:c4j="http://www.rubus.be/component"``
+* Use the component, `` <c4j:gridLayout columns="2" ... > ``. See the example further on.
 
 ## Component configuration
 
@@ -90,7 +90,7 @@ It is possible to specify more then 1 css class for a column.  These can also be
         <c4j:gridLayout columns="2" rowClass="ui-grid-row" columnClasses="ui-grid-col-2 alignRight, ui-grid-col-4">
       ...
         </c4j:gridLayout>
-    </div>
+
 ```
 
 The above example will align the labels to the right (In case the alignRight CSS class is defined like `text-align: right;` )
